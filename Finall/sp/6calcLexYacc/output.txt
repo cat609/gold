@@ -1,0 +1,9 @@
+raisa@raisa-Lenovo-G50-70:~/Desktop/SP$ flex -o 1lex.l.c 1lex.l
+raisa@raisa-Lenovo-G50-70:~/Desktop/SP$ bison -o 1yacc.y.c 1yacc.y
+raisa@raisa-Lenovo-G50-70:~/Desktop/SP$ gcc -o op 1lex.l.c 1yacc.y.c
+
+
+raisa@raisa-Lenovo-G50-70:~/Desktop/SP$ ./op
+(5+6)*10/2+4
+expression value:59
+

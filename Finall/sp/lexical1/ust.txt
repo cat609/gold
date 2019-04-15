@@ -1,0 +1,9 @@
+int		TRM	24
+a		IDN	1
+,		TRM	5
+b		IDN	2
+,		TRM	5
+c		IDN	3
+=		TRM	10
+10		LIT	1
+;		TRM	6
